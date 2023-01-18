@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Kanit:ital,wght@0,800;1,800&family=Roboto+Mono:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#side-bar {
+    background-image: url(/Images/sidebarimage2.jpg);
+    /* width: 20vw; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid black;
+    transition: transform 0.2s ease-in;
+    overflow: hidden;
+
+
+}
+
+
+#side-bar ul {
+    padding: 45px;
+}
+
+#side-bar ul li {
+    padding: 50px 0;
+    list-style: none;
+    color: wheat;
+    padding-right: 20px;
+
+}
+
+#side-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#side-bar ul li :hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 13px;
+    display: block;
+    align-items: center;
+    color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; */
+
+
+
+
+}
+
+
+#home-content {
+    width: 100vw;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/8769.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+
+
+}
+
+.content {
+    width: 75vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuy2woZQ1w9Dwc7SwsD5r44nlGrILqGJ-qgg&usqp=CAU); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+/* .image {
+    height: 50vh;
+    padding: 40px;
+    border-radius: 80px;
+} */
+
+.info-me {
+    margin: 80px;
+
+}
+
+
+
+
+.info-me div {
+
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+
+
+}
+
+.hello1 {
+    font-size: 100px;
+}
+
+.naam {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+
+.naam::after {
+    content: "Hasnain";
+    font-size: 53px;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+.naam:hover::after {
+    background-color: aqua;
+    color: black;
+}
+
+.info-2 {
+    margin-bottom: 34px;
+}
+
+#myself {
+    background-image: url(https://wallpaperaccess.com/full/44214.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.myselfcontent {
+    /* background-color: aqua; */
+    width: 20vw;
+    height: 60vh;
+    margin-left: 270px;
+    margin-top: 150px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 33px;
+    background-image: url(https://preview.redd.it/gcn102lrimq71.jpg?width=640&crop=smart&auto=webp&s=5e3a4f5cfc26c386ba26053ede5b8762344c5159);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    overflow: hidden;
+
+}
+
+.myselfcontent1 {
+    /* background-color: aqua; */
+    width: 20vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 150px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 33px;
+    background-image: url(https://beamingnotes.com/wp-content/uploads/2013/07/5593412239_5d6ea0de13_z.jpg);
+
+
+}
+
+.myselfcontent2 {
+    /* background-color: aqua; */
+    width: 20vw;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 150px;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 33px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR0peC4cBoNk0p6oQOH9nTMLhrq_zp7FU5Hw&usqp=CAU);
+
+
+}
+
+.myselfinfo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.myselfinfo p {
+    text-align: center;
+
+}
+
+
+.myselfinfo1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.myselfinfo1 p {
+    text-align: center;
+
+}
+
+.myselfinfo2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.myselfinfo2 p {
+    text-align: center;
+}
+
+.contact {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1-IP73hCpXyf1ftwBCen2-T3aVmfzOF1_A&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    /* display: flex; */
+    overflow: hidden;
+}
+
+#tasweek {
+    height: 55vh;
+    padding: 40px;
+    /* width: 20vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+/* .tasweek:hover{
+    background: url(/Images/Snapchat-1620718686.jpg);
+    
+} */
+
+
+
+
+
+.tasweer {
+    width: 100vw;
+    height: 60vh;
+   
+
+
+}
+
+.bhoola {
+    background-image: url(/Images/Snapchat-1620718686.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    padding: 40px;
+}
+
+#connect {
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#conn-head {
+    color: white;
+    padding: 24px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    margin: 23px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    
+
+
+}
+
+#conn-head:hover {
+    background-color: aqua;
+    color: black;
+    /* width: 450px; */
+    transition: 2s;
+    width: 50vw;
+    height: 2%;
+}
+
+
+footer {
+    /* white-space: pre-line; */
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+
+}
+
+footer ul {
+    display: flex;
+    margin: 25px;
+    padding: 24px;
+
+}
+
+
+
+footer ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 23px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    width: 100px;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-brands {
+    font-size: xx-large;
+    font-weight: bolder;
+    transition: 0.3s;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+
+.fa-facebook:hover {
+    color: #3b5998;
+    background-color: white;
+    border-radius: 45px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fa-instagram:hover {
+    color: red;
+    background-color: white;
+    border-radius: 45px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fa-linkedin:hover {
+    color: #0072b1;
+    background-color: white;
+    border-radius: 45px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fa-whatsapp:hover {
+    color: #075E54;
+    background-color: white;
+    border-radius: 45px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+    height: 100vh;
+}
+
+#hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 2%;
+    left: 17px;
+}
+
+.cross {
+    margin-left: 154px;
+
+
+}
+
+
+
+@media (max-width: 1073px) {
+
+    /* *{
+        background-color: red;
+    } */
+
+    /* #side-bar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+        width: 100%;
+} */
+
+    #home-content {
+        width: 100%;
+        background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/8769.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+
+    /* #myself{
+        width: 100%;
+        background-image: url(https://wallpaperaccess.com/full/44214.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}   */
+
+
+}
+
+@media (max-width: 440px) {
+
+
+
+    .info-me {
+
+        margin: 10px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    /* #side-bar{
+        width: 20%;
+    } */
+    #home-content {
+        width: 100%;
+    }
+
+    /* .cross{
+        margin-left: 85px;
+
+    } */
+}
+
+
+/* @media (max-width: 200px) {
+
+    #home-content {
+        width: 100%;
+        background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/8769.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+
+
+} */
+/* 
+@media (max-width: 878px) {
+
+    #side-bar{
+        width: 90%;
+       
+    }
+    body{
+        overflow-y: scroll;
+    }
+
+
+} */
+
+@media (max-width: 1445px) {
+
+    /* .myselfcontent {
+        margin-left: 40px;
+        
+    } */
+    .cross {
+        margin-left: 133px;
+
+    }
+
+}
+
+
+@media (max-width: 1121px) {
+
+
+    .cross {
+        margin-left: 133px;
+
+    }
+}
+
+
+
+@media (max-width: 733px) {
+
+
+    .cross {
+        margin-left: 114px;
+
+    }
+}
+
+
+
+@media (max-width: 569px) {
+
+
+    .cross {
+        margin-left: 99px;
+
+    }
+}
+
+@media (max-width: 457px) {
+
+
+    .cross {
+        margin-left: 79px;
+
+    }
+}
+
+@media (max-width: 341px) {
+
+
+    .cross {
+        margin-left: 59px;
+
+    }
+}
+
+
+@media (max-width: 1883px) {
+    .myselfcontent {
+        margin-left: 175px;
+    }
+}
+
+
+@media (max-width: 1619px) {
+    .myselfcontent {
+        margin-left: 145px;
+    }
+}
+
+@media (max-width: 1552px) {
+    .myselfcontent {
+        margin-left: 115px;
+    }
+}
+
+@media (max-width: 1436px) {
+    .myselfcontent {
+        margin-left: 48px;
+    }
+}
+
+@media (max-width: 599px) {
+    .myselfcontent {
+        margin-left: 18px;
+    }
+
+    .myselfcontent1 {
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 599px) {
+    .myselfcontent {
+        margin-left: 1px;
+        padding: 89px;
+    }
+
+    .myselfcontent1 {
+        margin-left: 18px;
+        padding: 89px;
+    }
+
+    .myselfcontent2 {
+        margin-left: 18px;
+        padding: 89px;
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 539px) {
+
+    #conn-head{
+        white-space:break-spaces;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+    footer{
+        display:block;
+        margin-right: 23px;
+    }
+    footer ul{
+        margin: -19px;
+        padding: 20fr;
+    }
+    
+
+
+
+}
